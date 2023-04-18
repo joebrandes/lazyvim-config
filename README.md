@@ -24,7 +24,7 @@ mv ~/.cache/nvim ~/.cache/nvim.bak-$(date -I)
 Clone the starter
 
 ```
-git clone https://github.com/joebrandes/lazyvim-config ~/.config/nvim
+git clone git@github.com:joebrandes/lazyvim-config ~/.config/nvim
 ```
 
 **Don't** Remove the .git folder, so you can add it to your own repo later
