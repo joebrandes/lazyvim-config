@@ -13,12 +13,12 @@ Make a backup of your current Neovim files:
 
 ```
 # required
-mv ~/.config/nvim ~/.config/nvim.bak
+mv ~/.config/nvim ~/.config/nvim.bak-$(date -I)
   
 # optional but recommended
-mv ~/.local/share/nvim ~/.local/share/nvim.bak
-mv ~/.local/state/nvim ~/.local/state/nvim.bak
-mv ~/.cache/nvim ~/.cache/nvim.bak
+mv ~/.local/share/nvim ~/.local/share/nvim.bak-$(date -I)
+mv ~/.local/state/nvim ~/.local/state/nvim.bak-$(date -I)
+mv ~/.cache/nvim ~/.cache/nvim.bak-$(date -I)
 ```
 
 Clone the starter
