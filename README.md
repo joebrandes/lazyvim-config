@@ -23,15 +23,21 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 
 Clone the starter
 
-  git clone https://github.com/LazyVim/starter ~/.config/nvim
+```
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+```
 
 Remove the .git folder, so you can add it to your own repo later
 
-  rm -rf ~/.config/nvim/.git
+```
+rm -rf ~/.config/nvim/.git
+```
 
 Start Neovim!
 
-  nvim
+```
+nvim
+```
 
 Refer to the comments in the files on how to customize LazyVim.
 
@@ -39,6 +45,3 @@ tip
 
 It is recommended to run :checkhealth after installation
 
-
-My warning paragraph.
-{: .alert .alert-warning}
