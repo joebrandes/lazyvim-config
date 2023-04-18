@@ -24,13 +24,13 @@ mv ~/.cache/nvim ~/.cache/nvim.bak-$(date -I)
 Clone the starter
 
 ```
-git clone https://github.com/LazyVim/starter ~/.config/nvim
+git clone https://github.com/joebrandes/lazyvim-config ~/.config/nvim
 ```
 
-Remove the .git folder, so you can add it to your own repo later
+**Don't** Remove the .git folder, so you can add it to your own repo later
 
 ```
-rm -rf ~/.config/nvim/.git
+# rm -rf ~/.config/nvim/.git
 ```
 
 Start Neovim!
