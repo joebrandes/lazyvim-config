@@ -10,7 +10,7 @@ return {
     "navarasu/onedark.nvim",
     opts = {
       -- Main Options
-      style = "deep",
+      style = "darker",
       -- toggle theme style ---
       toggle_style_key = "<leader>ts", -- keybind to toggle theme style. Leave it nil to disable it, or set it to a string, for example "<leader>ts"
       toggle_style_list = {
