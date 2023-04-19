@@ -43,5 +43,5 @@ Refer to the comments in the files on how to customize LazyVim.
 
 tip
 
-It is recommended to run :checkhealth after installation
+It is recommended to run ``:checkhealth`` after installation
 
