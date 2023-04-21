@@ -4,13 +4,19 @@ return {
     "catppuccin/nvim",
     lazy = true,
     name = "catppuccin",
+    opts = {
+      flavour = "frappe", -- latte, frappe, macchiato, mocha
+      styles = {
+        comments = { "italic" },
+      },
+    },
   },
   -- add onedark
   {
     "navarasu/onedark.nvim",
     opts = {
       -- Main Options
-      style = "darker",
+      style = "deep",
       -- toggle theme style ---
       toggle_style_key = "<leader>ts", -- keybind to toggle theme style. Leave it nil to disable it, or set it to a string, for example "<leader>ts"
       toggle_style_list = {
@@ -29,7 +35,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "onedark",
+      colorscheme = "catppuccin",
     },
   },
 }
